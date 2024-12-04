@@ -12,12 +12,12 @@
 //! the [libopus documentation](https://opus-codec.org/docs/opus_api-1.1.2/).
 #![warn(missing_docs)]
 
-extern crate audiopus_sys as ffi;
+extern crate opusic_sys as ffi;
 
 use std::convert::TryFrom;
 use std::ffi::CStr;
-use std::os::raw::c_int;
 use std::marker::PhantomData;
+use std::os::raw::c_int;
 
 // ============================================================================
 // Constants
